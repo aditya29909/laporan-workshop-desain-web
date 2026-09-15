@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survei Tingkat Kepuasan Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <header>
+        <h1>Survei Tingkat Kepuasan Mahasiswa</h1>
+
+        <main>
+       
+        <fieldset>
+        <legend>Survei Tingkat Kepuasan</legend>
+        <form action="#" method="post">
+            <label for="nama">Nama Lengkap <span style="color:red;">*</span></label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+            <label for="email">Email <span style="color:red;">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+            <br><br>    
+
+            <label for="nrp">NRP<span style="color:red;">*</span></label>
+            <input type="text" id="nrp" name="nrp" placeholder="Masukkan NRP" required>
+
+            <label for="fakultas">Fakultas</label>
+            <select id="fakultas" name="fakultas">
+                <option value="">Pilih Fakultas</option>
+                <option value="dtik">Departemen Teknik Informatika dan Komputer</option>
+                <option value="dtmk">Departemen Teknologi Multimedia Kreatif</option>
+                <option value="dtme">Departemen Teknik Mekanika dan Energi</option>
+                <option value="dte">Departemen Teknik Elektro</option>
+            </select>
+
+                <br><br>
+            <label for="semester">Semester saat ini<span style="color:red;">*</span></label>
+            <input type="number" id="semester" name="semester" placeholder="Masukkan Semester" min="1" max="8">
+                <br><br><br>
+        <fieldset>
+        <legend>Evaluasi</legend>
+            <label for="kepuasan">Tingkat Kepuasan<span style="color:red;">*</span></label>
+            <input type="number" id="kepuasan" name="kepuasan" placeholder="(1-5)" min="1" max="5" required>
+            <br><br>
+            <label for="saran">Saran dan Masukan</label>
+            <textarea id="saran" name="saran" placeholder="Masukkan saran dan masukan" rows="5"></textarea>
+            <br><br>
+            <label for="kontak">Setuju Dihubungi</label>
+            <input type="checkbox" id="kontak" name="kontak">
+
+            <footer>
+                <button type="submit">Kirim</button>
+            </footer>
+        </form>
+    </body>
+</html>
+
+        
+       </fieldset>
+        
+    </body>
+</html>
